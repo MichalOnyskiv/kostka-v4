@@ -1,0 +1,68 @@
+body
+{
+    background-color: #2541B2;
+    color: white;
+}
+
+.nadpis
+{
+    border-style: inset;
+    
+    border-width: 1px;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+color: white;
+width: 35%;
+}
+
+.ja
+{
+    
+float: left;
+color: white;
+}
+.pc
+{
+    
+  float: right;
+  color: white;
+}
+.row::after
+{
+content: "";
+clear:both;
+display: table;
+}
+.skoreja
+{
+    border-style: inset;
+    border-width: 1px;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+  width: 25%;
+  color: white;
+ display: inline-block;
+ background-color: #06BEE1;
+}
+.skorepc
+{
+    border-style: inset;
+    border-width: 1px;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+  width: 25%;
+  color: white;
+  display: inline-block;
+  background-color: #06BEE1;
+}
+img
+{
+  width: 65%;
+  border-radius: 15px;
+}
